@@ -1,0 +1,42 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Database files and backups
+*.dump
+*.db
+*.sqlite
+*.sqlite3
+*.tar.gz
+backups/
+**/backups/
+*_backup_*/
+*backup*/
+BACKUP*/
+
+# Logs and OS files
+*.log
+.DS_Store
+
+# Local backups and temporary files
+*.backup*
+*.bak*
+*.before-*
+*.before_*
+*_backup*
+BACKUP*/
+*.pid
+logs/
+**/logs/
